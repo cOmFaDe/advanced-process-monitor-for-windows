@@ -1,61 +1,109 @@
-# advanced-process-monitor-for-windows
-Advanced Process Monitor for Windows é uma ferramenta em desenvolvimento para monitoramento avançado de processos no sistema operacional Windows. Utiliza as bibliotecas ImGui e GLFW para fornecer uma interface gráfica leve e responsiva.
+```markdown
+# 🧠 Advanced Process Monitor for Windows
 
-🚀 Funcionalidades
-Visualização em tempo real de processos ativos.
-
-Interface gráfica interativa com suporte a temas personalizados.
-
-Leve e eficiente, ideal para sistemas com recursos limitados.
-
-Arquitetura modular facilitando futuras expansões.
-
-🛠️ Tecnologias Utilizadas
-C++ (91.1%) e C (8.9%)
-
-Dear ImGui para a interface gráfica
-
-GLFW para gerenciamento de janelas e entrada
-
-📁 Estrutura do Projeto
-core/ – Lógica principal do monitor de processos.
-
-libs/imgui/ – Biblioteca ImGui integrada ao projeto.
-
-assets/ – Recursos visuais como fontes e imagens.
-
-themes/ – Arquivos de temas para personalização da interface.
+![image](https://github.com/user-attachments/assets/7cd75fbc-fc22-442a-8a18-749197b1fa25)
 
 
-📦 Como Compilar
-Clone o repositório:
+> Ferramenta gráfica moderna para monitoramento de processos no Windows — desenvolvida em C++ com ImGui e GLFW.
 
-git clone https://github.com/cOmFaDe/advanced-process-monitor-for-windows.git
+---
 
-Configure o ambiente de desenvolvimento:
+## ✨ Funcionalidades
 
-Instale um compilador C++ compatível.
+- 🔍 Visualização **em tempo real** dos processos ativos no sistema.
+- 🎨 Interface leve e moderna com **temas customizáveis**.
+- 📦 Arquitetura **modular** e de fácil manutenção.
+- ⚡ Baixo uso de recursos — ideal para debugging e monitoramento técnico.
 
-Configure as dependências necessárias (ImGui e GLFW).
+---
 
-Compile o projeto utilizando sua IDE ou linha de comando.
+## 🧰 Tecnologias
 
-📌 Status do Projeto
-Este projeto está em fase inicial de desenvolvimento. Contribuições são bem-vindas para aprimorar funcionalidades, corrigir bugs e expandir recursos.
+| Linguagem | Interface | Sistema | Outros |
+|----------:|-----------|---------|--------|
+| C++       | Dear ImGui | Windows | GLFW   |
+| C         | ImPlot     |         | stb    |
 
-🤝 Contribuindo
-Para contribuir:
+---
 
-Fork este repositório.
+## 📁 Estrutura
 
-Crie uma branch com sua feature: git checkout -b minha-feature.
+```
 
-Commit suas alterações: git commit -m 'Adiciona nova feature'.
+advanced-process-monitor-for-windows/
+├── core/           # Lógica principal do monitor
+├── libs/           # Bibliotecas externas (ImGui, ImPlot, stb, etc)
+├── themes/         # Temas personalizados da interface
+├── assets/         # Fontes, ícones, imagens
+├── main.cpp        # Ponto de entrada
+└── README.md       # Você está aqui :)
 
-Push para a branch: git push origin minha-feature.
+````
 
-Abra um Pull Request.
+---
 
-![image](https://github.com/user-attachments/assets/a181c0cf-9935-40bb-a19a-1192afd56829)
+## 🛠️ Como Compilar
+
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/cOmFaDe/advanced-process-monitor-for-windows.git
+   cd advanced-process-monitor-for-windows
+````
+
+2. **Configure o ambiente**
+
+   * Use uma IDE como Visual Studio ou CMake.
+   * Certifique-se de ter um compilador C++17+.
+   * As dependências já estão incluídas em `libs/`.
+
+3. **Compile o projeto**
+
+   * Na IDE: abra e execute.
+   * No terminal (com `g++`, por exemplo):
+
+     ```
+     g++ -Ilibs -Icore -o monitor.exe main.cpp core/*.cpp libs/imgui/*.cpp -lgdi32 -lopengl32
+     ```
+
+---
+
+## 🚧 Status
+
+⚠️ Este projeto está em desenvolvimento ativo. Contribuições e feedbacks são **muito bem-vindos**!
+
+---
+
+## 🤝 Contribuindo
+
+```bash
+# Fork e clone o repositório
+git clone https://github.com/seu-usuario/advanced-process-monitor-for-windows.git
+
+# Crie uma branch de feature
+git checkout -b minha-nova-feature
+
+# Commit e push
+git commit -m "Adiciona nova funcionalidade"
+git push origin minha-nova-feature
+```
+
+Abra um Pull Request com sua melhoria 🚀
+
+---
 
 
+
+## 📬 Contato
+
+Criado com ❤️ por [cOmFaDe](https://github.com/cOmFaDe)
+Para sugestões, dúvidas ou colaborações, fique à vontade para abrir uma issue!
+
+---
+
+> *"Monitorar processos nunca foi tão visual."* 💻
+
+```
+
+---
+
+```
