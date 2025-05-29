@@ -1,5 +1,6 @@
 #include "menuBar.h"
 #include "GLFW/glfw3.h"
+
 void drawBar() {
 	if (ImGui::BeginMainMenuBar()) {
 		if (ImGui::BeginMenu("Arquivos")) {
@@ -25,6 +26,7 @@ void drawBar() {
 		}
 		if (ImGui::BeginMenu("Processos")) {
 			if (ImGui::MenuItem("Atualizar lista")) {
+				
 
 			}
 			if (ImGui::MenuItem("Finalizar processo")) {
