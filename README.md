@@ -29,11 +29,12 @@
 
 ---
 
-## 📁 Estrutura
 
 ```
+## 📁 Estrutura
 
 advanced-process-monitor-for-windows/
+
 ├── core/           # Lógica principal do monitor
 
 ├── libs/           # Bibliotecas externas (ImGui, ImPlot, stb, etc)
@@ -108,7 +109,7 @@ Para sugestões, dúvidas ou colaborações, fique à vontade para abrir uma iss
 
 ---
 
-> *"Monitorar processos nunca foi tão visual."* 💻
+
 
 ```
 
