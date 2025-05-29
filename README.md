@@ -1,7 +1,10 @@
 ```markdown
 # 🧠 Advanced Process Monitor for Windows
 ```
-![image](https://github.com/user-attachments/assets/7cd75fbc-fc22-442a-8a18-749197b1fa25)
+![image](https://github.com/user-attachments/assets/01272164-b9c5-4b2f-b28e-86c420126c3a)
+```Baixíssimo consumo de ram e processador!```
+![image](https://github.com/user-attachments/assets/513f4d6d-c7d0-40e3-80ea-677a0f6894ef)
+
 ```
 
 > Ferramenta gráfica moderna para monitoramento de processos no Windows — desenvolvida em C++ com ImGui e GLFW.
