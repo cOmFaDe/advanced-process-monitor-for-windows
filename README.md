@@ -32,10 +32,15 @@
 
 advanced-process-monitor-for-windows/
 ├── core/           # Lógica principal do monitor
+
 ├── libs/           # Bibliotecas externas (ImGui, ImPlot, stb, etc)
+
 ├── themes/         # Temas personalizados da interface
+
 ├── assets/         # Fontes, ícones, imagens
+
 ├── main.cpp        # Ponto de entrada
+
 └── README.md       # Você está aqui :)
 
 ````
@@ -48,7 +53,7 @@ advanced-process-monitor-for-windows/
    ```bash
    git clone https://github.com/cOmFaDe/advanced-process-monitor-for-windows.git
    cd advanced-process-monitor-for-windows
-````
+
 
 2. **Configure o ambiente**
 
@@ -61,9 +66,9 @@ advanced-process-monitor-for-windows/
    * Na IDE: abra e execute.
    * No terminal (com `g++`, por exemplo):
 
-     ```
+     
      g++ -Ilibs -Icore -o monitor.exe main.cpp core/*.cpp libs/imgui/*.cpp -lgdi32 -lopengl32
-     ```
+     
 
 ---
 
